@@ -6,5 +6,4 @@ def print_tree(tree, level=0, prefix="Root:"):
             print_tree(tree.left, level + 1, "L--")
             print_tree(tree.right, level + 1, "R--")
 
-# Example usage:
 print_tree(new_tree)
